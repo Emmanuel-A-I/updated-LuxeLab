@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inquiry</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+    <script src="../layout.js"></script>
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+
+    <div class="All">
+      <div class="other-products padd ft-pad">
+        <div class="row DD">
+          <div class="art-left">
+            <h2>Make an appointment with us today!</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              suscipit ut sed vel. Ratione ullam consequuntur debitis corrupti
+              minus! Ducimus alias autem delectus ad quidem nihil optio in vero
+              sed.
+            </p>
+
+            <div class="row contact">
+              <div class="phone">
+                <img src="../img/phone.png" alt="" /> <br />
+                <span>+234 8141267743</span>
+              </div>
+              <div class="phone">
+                <img src="../img/mail.png" alt="" /> <br />
+                <span>support@LuxeLab.com</span>
+              </div>
+              <div class="phone">
+                <img src="../img/loc.png" alt="" /> <br />
+                <span> no 16 strrt</span>
+              </div>
+            </div>
+
+            <button class="btn bt">Telegram</button>
+            <button class="btn bt">Whatsapp</button>
+          </div>
+
+          <div class="art-right BB">
+            <div class="text">
+              <h3>
+                This form <br />is to clearly state when and how you want to
+                meet with us and also let us know what you are looking for and
+                how to serve you better
+              </h3>
+            </div>
+            <form action="">
+              <input
+                type="text"
+                name="text"
+                id="check"
+                placeholder="First-Name"
+                required
+              />
+              <input
+                type="text"
+                name="text"
+                id="check"
+                placeholder="Last-Name"
+                required
+              />
+              <input
+                type="Number"
+                name="text"
+                id="full"
+                placeholder="Phone-Number"
+                required
+              />
+              <select name="" id="check">
+                <option value="">Type of appointment</option>
+                <option value="">In person appointment</option>
+                <option value="">Online appointment</option>
+              </select>
+              <input
+                type="Email"
+                name="mail"
+                id="check"
+                placeholder="Email Address"
+                required
+              />
+              <textarea
+                name="message"
+                id="full"
+                placeholder="What are you looking for?"
+              ></textarea>
+              <button type="submit" id="check">Book</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+      // js for menu toggle
+      var Menuitems = document.getElementById("menuitems");
+      Menuitems.style.maxHeight = "0px ";
+      document.querySelector(".menu").addEventListener("click", function () {
+        if (Menuitems.style.maxHeight == "0px") {
+          Menuitems.style.maxHeight = "230px";
+        } else {
+          Menuitems.style.maxHeight = "0px";
+        }
+      });
+    </script>
+  </body>
+</html>
